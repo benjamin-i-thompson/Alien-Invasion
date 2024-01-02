@@ -8,7 +8,7 @@ To run this program, you will need to download all files and images. You will al
 
 alien_invasion.py is the main program.
 
-Both .bmp files will need to be installed and put into an 'images' folder in the workspace.
+Both .bmp files will need to be installed and put into an 'images' folder in the workspace. If you choose to place them in a different folder or folder name, you will need to update the ship.py and alien.py files. Changes can be made to line 18 in ship.py (self.image = pygame.image.load('Alien-Invasion/images/ship.bmp')) and line 16 in alien.py (self.image = pygame.image.load('Alien-Invasion/images/alien.bmp')).
 
 # Modifications
 
